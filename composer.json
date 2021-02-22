@@ -1,0 +1,19 @@
+{
+    "name": "gaini/test_package",
+    "description": "Тестовый пакет для отуса",
+    "authors": [
+        {
+            "name": "Gaini",
+            "email": "gaini.shakurov@ffin.kz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=7.4.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"gaini\\": "src/"
+    	}
+    }
+}
